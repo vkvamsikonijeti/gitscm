@@ -9,7 +9,7 @@ class Pull{
     this.script=script
   }
   void pullcode(){
-    this.scrpit.stage('pulling'){
+    this.script.stage('pulling'){
     this.script.sh('git clone this.config.url')
   }
  }
